@@ -1,0 +1,22 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Retail Pharmacist</ion-title>
+  </ion-navbar>
+</ion-header>
+
+
+<ion-content  class= "background" padding >
+
+  <p> <button ion-button block color="secondary" (click)="kineticsPage()"> Pharmokinetics </button> </p>
+
+  <p> <button ion-button block color="danger" (click)="pediatricPage()"> Pediatric Dosage </button> </p>
+
+  <p> <button ion-button block (click)="bmiPage()"> BMI </button> </p>
+
+</ion-content>
+
+
+<p> <button ion-button color="primary" menuToggle >Toggle Menu</button> </p>
